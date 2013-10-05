@@ -1,6 +1,6 @@
 {
   "name": "explain.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The easiest way to explain shell command by opening http://explainshell.com/ ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
