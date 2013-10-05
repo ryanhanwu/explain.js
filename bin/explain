@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var browse = require('open'),
     args = process.argv.splice(2).join(' ');
 browse('http:\/\/explainshell.com\/explain?cmd=' + args);
