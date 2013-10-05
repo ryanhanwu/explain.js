@@ -13,7 +13,6 @@ $ npm install explain.js -g
 ## Usage
 
 ```
-$ explain ls -al
+$ explain find ~/Projects -mindepth 1 -maxdepth 1 -type d
 ```
-
 
