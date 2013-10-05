@@ -2,7 +2,6 @@
   "name": "explain.js",
   "version": "0.0.1",
   "description": "The easiest way to explain shell command by opening http://explainshell.com/ ",
-  "main": "explain.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +10,8 @@
     "url": "https://github.com/flyworld/explain.js.git"
   },
   "keywords": [
+    "cli",
+    "tool",
     "shell",
     "utility"
   ],
@@ -18,5 +19,12 @@
   "license": "The MIT License (MIT)",
   "bugs": {
     "url": "https://github.com/flyworld/explain.js/issues"
+  },
+  "bin": {
+    "explain": "./bin/explain"
+  },
+  "browserDependencies" : false,
+  "dependencies": {
+    "open": "0.0.4"
   }
 }
