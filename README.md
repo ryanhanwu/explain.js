@@ -18,3 +18,7 @@ explain ```shell command```
 $ explain find ~/Projects -mindepth 1 -maxdepth 1 -type d
 ```
 then it will open [the explaination page ](http://goo.gl/wt0hsq) automatically
+
+## License
+
+MIT: http://ryanwu.mit-license.org
